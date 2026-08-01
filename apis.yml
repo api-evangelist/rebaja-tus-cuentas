@@ -1,8 +1,27 @@
 aid: rebaja-tus-cuentas
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rebaja-tus-cuentas.png
 name: Rebaja Tus Cuentas
-description: Rebaja Tus Cuentas is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Rebaja Tus Cuentas is a Latin American consumer fintech, backed by 500 Global,
+  that helps individuals lower their debt and monthly loan payments. Through its
+  website (rebajatuscuentas.com, redirecting to rtc.pe in Peru) it lets people
+  compare refinancing and debt-consolidation offers from banks and lenders to
+  reduce the cost of their existing loans, credit cards, and other obligations.
+  It operates as a business-to-consumer marketing and lead-generation platform
+  built on WordPress and fronted by Cloudflare, with a public blog and help
+  center but no publicly documented developer program, API, or integration
+  surface at the time of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/rebaja-tus-cuentas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +31,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Fintech
+- Consumer Finance
+- Lending
+- Debt Refinancing
+- Personal Finance
+- Latin America
+- Peru
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://rebajatuscuentas.com
+- type: Website
+  url: https://rtc.pe
+- type: Blog
+  url: https://rtc.pe/blog/
+- type: HelpCenter
+  url: https://rtc.pe/ayuda/
+- type: DomainSecurity
+  url: security/rebaja-tus-cuentas-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
