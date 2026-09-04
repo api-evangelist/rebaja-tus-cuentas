@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://rebajatuscuentas.com', status: 301, note: 'declared website redirects to https://rtc.pe/ — a different registrable domain (rebajatuscuentas.com -> rtc.pe), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rebaja-tus-cuentas.png
 name: Rebaja Tus Cuentas
 description: >-
